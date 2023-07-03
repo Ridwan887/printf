@@ -44,7 +44,7 @@ va_list list, char buffer[], int flags, int width, int precision, int size);
 
 
 /* Functions to print ints */
-int print_ints(va_list types, char buffer[],
+int print_int(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int print_binary(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
